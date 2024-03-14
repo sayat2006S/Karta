@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfAppMapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <m:Map CredentialsProvider="hOYKHUA8tU5sHjbpWMzr~jB3LDatZPIPwcCBOTmiIFw~Al1Q8atJaMX8I8UNWsJhefrINTmjI2Zk7DqSHU9vdObkq6tDbxs0YKb5LaTykRbX" x:Name="myMap" >
+            <Button x:Name="btnRemovePushpins" Content="Remove Pushpins" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="693,10,0,0"/>
+        </m:Map>
+    </Grid>
+</Window>
