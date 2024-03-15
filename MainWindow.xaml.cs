@@ -12,7 +12,7 @@ namespace WpfAppMapp
     public partial class MainWindow : Window
     {
         public string filePath = "pushpins.txt";
-        public string projectFolder = "C:\\Users\\Student13\\source\\repos\\WpfAppMapp\\WpfAppMapp\\";
+        public string projectFolder = "C:\\Users\\Имя пользователя\\source\\repos\\WpfAppMapp\\WpfAppMapp\\"; //Замените Имя пользователя на ваше.
         private List<Location> pushpinLocations = new List<Location>();
 
         public MainWindow()
