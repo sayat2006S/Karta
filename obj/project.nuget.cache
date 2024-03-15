@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "nSFhTM4SCkAg4C88LMnvvH2wQ4F0qi4qCrdYAkjAnltfW4sWMeBpjNawMQs2MzeHWeH8dkvp7qd80FDy8M6Jvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student13\\source\\repos\\WpfAppMapp\\WpfAppMapp\\WpfAppMapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student13\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Microsoft.Maps.MapControl.WPF 1.0.0.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Microsoft.Maps.MapControl.WPF",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
