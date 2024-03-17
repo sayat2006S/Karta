@@ -68,3 +68,9 @@ public string projectFolder = "C:\\Users\\Имя пользователя\\sourc
 ---
 
 Пожалуйста, убедитесь, что приведенные выше ответы на вопросы соответствуют вашему проекту, и адаптируйте их при необходимости.
+<details>
+  <summary>
+    <img src="obj/example2.png" />
+  </summary>
+  <img src="https://c.tenor.com/gicNQeBbKK4AAAAC/tenor.gif" alt="czechpoint" />
+</details>
