@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Windows;
@@ -11,8 +11,8 @@ namespace WpfAppMapp
 {
     public partial class MainWindow : Window
     {
-        public string filePath = "pushpins.txt";
-        public string projectFolder = "C:\\Users\\Имя пользователя\\source\\repos\\WpfAppMapp\\WpfAppMapp\\"; //Замените Имя пользователя на ваше.
+        public string filePath = "C:\\Users\\Имя Пользователя\\source\\repos\\WpfAppMapp\\WpfAppMapp\\pushpins.txt";
+        public string projectFolder = "C:\\Users\\Имя Пользователя\\source\\repos\\WpfAppMapp\\WpfAppMapp\\"; //Замените Имя пользователя на ваше.
         private List<Location> pushpinLocations = new List<Location>();
 
         public MainWindow()
@@ -28,8 +28,8 @@ namespace WpfAppMapp
         {
             Window instructionsWindow = new Window();
             instructionsWindow.Title = "Руководство";
-            instructionsWindow.Width = 1150;
-            instructionsWindow.Height = 900;
+            instructionsWindow.Width = 1100;
+            instructionsWindow.Height = 850;
             instructionsWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
             StackPanel stackPanel = new StackPanel();
@@ -55,7 +55,7 @@ namespace WpfAppMapp
             stackPanel.Children.Add(textBlock2);
 
             Image image2 = new Image();
-            image2.Source = new BitmapImage(new Uri(projectFolder+"screen25.png"));
+            image2.Source = new BitmapImage(new Uri(projectFolder+"screen2.png"));
             image2.Margin = new Thickness(0, 10, 0, 0); 
             stackPanel.Children.Add(image2);
 
