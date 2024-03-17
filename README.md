@@ -72,5 +72,8 @@ public string projectFolder = "C:\\Users\\Имя пользователя\\sourc
   <summary>
     <img src="obj/example2.png" />
   </summary>
-  <img src="https://c.tenor.com/gicNQeBbKK4AAAAC/tenor.gif" alt="czechpoint" />
+  P.S.
+  It's a college project, obviously. 
+  
+  ~~i like suffering~~
 </details>
