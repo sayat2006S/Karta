@@ -70,10 +70,11 @@ public string projectFolder = "C:\\Users\\Имя пользователя\\sourc
 Пожалуйста, убедитесь, что приведенные выше ответы на вопросы соответствуют вашему проекту, и адаптируйте их при необходимости.
 <details>
   <summary>
-    <img src="obj/example2.png" />
+    <img src="obj/example2.png" style="position: absolute; top: 0; left: 0; width: 65px; height: 65px; transform: translate(-50%, -50%);" />
   </summary>
   P.S.
-  It's a college project, obviously. 
   
-  ~~i like suffering~~
+  > **It's a college project, obviously.**
+  
+  ***~~:sparkles:i like suffering:sparkles:~~***
 </details>
